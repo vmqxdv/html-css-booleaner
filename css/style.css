@@ -1,3 +1,10 @@
+body { 
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px
+}
+
 header {
   background-image: url(../img/pattern.png);
   background-size: 400px, 200px;
@@ -16,6 +23,7 @@ header {
 
 .title {
   margin-top: -10px;
+  font-size: larger;
 }
 
 .second {
@@ -32,25 +40,6 @@ header {
   font-size: smaller;
 }
 
-table {
-  text-align: left;
-  border-spacing: 0;
-  line-height: 15px;
-}
-
-thead {
-  background-color: rgb(32,169,229);
-  color: white;
-}
-
-.blue-row {
-  background-color: rgb(177,229,242);
-}
-
-.wider-column {
-  width: 30%;
-}
-
 .article-text {
   margin-top: 20px;
 }
@@ -61,4 +50,23 @@ thead {
 
 .article-list {
   padding-left: 20px;
+}
+
+table {
+  text-align: left;
+  border-spacing: 0;
+  line-height: 15px;
+}
+
+.wider-column {
+  width: 25%;
+}
+
+thead {
+  background-color: rgb(32,169,229);
+  color: white;
+}
+
+.blue-row {
+  background-color: rgb(177,229,242);
 }
