@@ -13,3 +13,16 @@ header {
   left: 10px;
   height: 50px;
 }
+
+.title {
+  margin-top: -10px;
+}
+
+.second {
+  margin-top: -20px;
+  color: rgb(137,137,137);
+}
+
+.date {
+  font-size: smaller;
+}
