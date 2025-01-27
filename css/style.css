@@ -31,3 +31,34 @@ header {
   margin-top: 0px;
   font-size: smaller;
 }
+
+table {
+  text-align: left;
+  border-spacing: 0;
+  line-height: 15px;
+}
+
+thead {
+  background-color: rgb(32,169,229);
+  color: white;
+}
+
+.blue-row {
+  background-color: rgb(177,229,242);
+}
+
+.wider-column {
+  width: 30%;
+}
+
+.article-text {
+  margin-top: 20px;
+}
+
+.highlighted-text {
+  background-color: rgb(255,255,0);
+}
+
+.article-list {
+  padding-left: 20px;
+}
