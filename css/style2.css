@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 
+/* Contenitore principale con margini laterali */
+.container {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
 /* Header con background */
 header {
   background-image: url(../img/pattern.png);
