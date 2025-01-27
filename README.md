@@ -10,7 +10,7 @@ Riprodurre [questa immagine](https://github.com/user-attachments/assets/761afb1a
 ## Struttura
 - **index.html**: La pagina principale del progetto.
 - **img/**: Cartella contenente le immagini utilizzate nel layout.
-- **css/**: Cartella contenente i 2 file .css.
+- **css/**: Cartella contenente i 2 file .css, con le diverse versioni del layout.
 
 ### Stato del progetto:
 ✅ Esercizio 
