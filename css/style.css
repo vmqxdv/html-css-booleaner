@@ -1,12 +1,14 @@
 body { 
-  margin: 0
+  margin: 0;
 }
 
+/* Contenitore principale con margini laterali */
 .container {
   margin-left: 80px;
   margin-right: 80px;
 }
 
+/* Header con background */
 header {
   background-image: url(../img/pattern.png);
   background-size: 400px, 200px;
@@ -16,6 +18,7 @@ header {
   height: 100px;
 }
 
+/* Logo principale */
 .main-logo {
   position: relative;
   top: 40px;
@@ -23,65 +26,78 @@ header {
   height: 50px;
 }
 
+/* Titolo principale */
 .title {
   margin-top: -10px;
   font-size: larger;
 }
 
+/* Autore dell'articolo */
 .second {
   margin-top: -20px;
   color: rgb(137,137,137);
 }
 
+/* Data della scrittura dell'articolo */
 .date {
   font-size: smaller;
 }
 
+/* Fonti delle immagini principali */
 .top-images-sources {
   margin-top: 0px;
   font-size: smaller;
 }
 
+/* Testo dell'articolo */
 .article-text {
   margin-top: 20px;
 }
 
+/* Testo evidenziato */
 .highlighted-text {
   background-color: rgb(255,255,0);
 }
 
+/* Lista puntata */
 .article-list {
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+/* Tabella */
 table {
   text-align: left;
   border-spacing: 0;
   line-height: 15px;
 }
 
+/* Larghezza colonne */
 .wider-column {
   width: 25%;
 }
 
+/* Intestazioni della tabella */
 thead {
   background-color: rgb(32,169,229);
   color: white;
 }
 
+/* Righe con sfondo blu */
 .blue-row {
   background-color: rgb(177,229,242);
 }
 
+/* Ttitolo degli articoli consigliati */
 .recommended-articles-title {
   color: rgb(140,140,140);
   margin-top: 40px;
-  margin-bottom: -5px;
-  font-weight: bold;
+  margin-bottom: -10px;
+  font-weight: 700;
 }
 
+/* Primo articolo consigliato */
 .recommended-article-1 {
   background-image: url(../img/monitor.jpg);
   width: 220px;
@@ -90,6 +106,7 @@ thead {
   margin-bottom: -5px;
 }
 
+/* Secondo articolo consigliato */
 .recommended-article-2 {
   background-image: url(../img/graph.jpg);
   width: 220px;
@@ -97,6 +114,7 @@ thead {
   background-size:cover;
 }
 
+/* Titolo degli articoli consigliati */
 .recommended-article-title {
   font-weight: bold;
   color: white;
